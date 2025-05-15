@@ -1,0 +1,39 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+}
+.collapse{
+    margin-left: 200px;
+}
+.profile{
+    border-radius: 50%;
+}
+.below-header{
+    display: flex;
+    width: 1200px;
+    margin-left: 80px;
+    margin-top: 50px;
+    justify-content: space-around;
+}
+.below-header img{
+    height: 100px;
+}
+.hOne{
+    margin-top: 50px;
+    text-align: center;
+}
+.hOne p{
+    color: gray;
+}
+.second-nav{
+    background-color: rgb(6, 121, 160);
+}
+.second-nav li{
+    margin: 70px;
+    
+}
+.grid{
+    display: grid;
+    grid-template-columns: repeat(4, 300px);
+    margin-left: 150px;
+}
