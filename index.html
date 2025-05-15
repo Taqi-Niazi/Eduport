@@ -11,10 +11,11 @@
     <title>Eduport</title>
     <style type="text/css">
         @media screen and (orientation:landscape) {
-            body{
-                padding:0% 10%;
+            body {
+                padding: 0% 10%;
                 padding-bottom: 5%;
             }
+
             .navbar {
                 display: flex;
                 justify-content: space-between;
@@ -68,6 +69,19 @@
                 position: relative;
                 top: 10px;
             }
+            .footer{
+                display: grid;
+                margin-top: 80px;
+                grid-template-columns: 4fr 2fr 2fr 2fr 2fr;
+            }
+            .footer ul{
+                list-style: none;
+            }
+            .foot-title{
+                width: 300px;
+                position: relative;
+                bottom: 50px;
+            }
         }
 
         @media screen and (orientation:portrait) {
@@ -95,6 +109,28 @@
             .below-header img {
                 margin-top: 20px;
             }
+
+            .hOne {
+                display: none;
+            }
+            .last-ul{
+
+                display: none;
+            }
+            .footer ul{
+                list-style: none;
+            }
+            .foot-title{
+                width: 300px;
+                position: relative;
+                bottom: 50px;
+            }
+            .foot-title{
+                width: 300px;
+                margin-left: 50px;
+                margin-top: 80px;
+            }
+
 
         }
     </style>
@@ -306,8 +342,49 @@
     </div>
 
     <footer>
-
+        <div class="footer">
+            <div class="foot-title">
+                <h2><img src="public/images/icon.png" alt="">Eduport</h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Pariatur aperiam maxime, quidem
+                    necessitatibus nihil qui delectus veniam tempore nesciunt sint reprehenderit magni est nulla dolores
+                    quis molestiae sequi optio officiis.</p>
+            </div>
+            <div>
+                <ul>
+                    <li><h5>Company</h5></li>
+                    <li>About</li>
+                    <li>Contact</li>
+                    <li>Company</li>
+                </ul>
+            </div>
+            <div>
+                <ul>
+                    <li><h5>Community</h5></li>
+                    <li>Documentation</li>
+                    <li>FAQ</li>
+                    <li>Forum</li>
+                </ul>
+            </div>
+            <div>
+                <ul>
+                    <li><h5>Teaching</h5></li>
+                    <li>Become a teacher</li>
+                    <li>How to guide</li>
+                    <li>Contact</li>
+                </ul>
+            </div>
+            <div class="last-ul">
+                <ul>
+                    <li><h5>Contact</h5></li>
+                    <li>Tell:+987654432</li>
+                    <li>Email: email@email.com</li>
+                </ul>
+            </div>
+        </div>
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>
