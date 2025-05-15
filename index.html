@@ -10,28 +10,88 @@
     <link rel="stylesheet" href="src/main.css">
     <title>Eduport</title>
     <style type="text/css">
-        @media screen and (orientation:portrait){
-            .navbar{
+        @media screen and (orientation:landscape) {
+            .navbar {
+                display: flex;
+                justify-content: space-between;
+            }
+
+            .collapse {
+                margin-left: 200px;
+            }
+
+            .profile {
+                border-radius: 50%;
+            }
+
+            .below-header {
+                display: flex;
+                width: 1200px;
+                margin-left: 80px;
+                margin-top: 50px;
+                justify-content: space-around;
+            }
+
+            .below-header img {
+                height: 100px;
+            }
+
+            .hOne {
+                margin-top: 50px;
+                text-align: center;
+            }
+
+            .hOne p {
+                color: gray;
+            }
+
+            .second-nav {
+                background-color: rgb(6, 121, 160);
+            }
+
+            .second-nav li {
+                margin: 70px;
+
+            }
+
+            .grid {
+                display: grid;
+                grid-template-columns: repeat(4, 300px);
+                margin-left: 150px;
+            }
+
+            .bi-three-dots {
+                position: relative;
+                top: 10px;
+            }
+        }
+
+        @media screen and (orientation:portrait) {
+            .navbar {
                 display: flex;
                 flex-direction: row;
             }
-            .second-nav{
+
+            .second-nav {
                 display: none;
             }
-            .grid{
+
+            .grid {
                 display: none;
             }
-            .below-header{
+
+            .below-header {
                 display: flex;
                 flex-direction: column;
-                width:300px;
-                margin:auto;
+                width: 300px;
+                margin: auto;
                 margin-top: 50px;
             }
-            .below-header img{
+
+            .below-header img {
                 margin-top: 20px;
             }
-            
+
         }
     </style>
 </head>
@@ -242,7 +302,7 @@
     </div>
 
     <footer>
-        
+
     </footer>
 </body>
 
